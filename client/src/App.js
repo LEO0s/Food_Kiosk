@@ -7,7 +7,7 @@ function App() {
 
   // Fetch Menu from Server on load
   useEffect(() => {
-    fetch('http://localhost:4000/menu')
+    fetch('https://food-kiosk-api.vercel.app/menu')
       .then(res => res.json())
       .then(data => setMenu(data));
   }, []);
@@ -34,7 +34,7 @@ function App() {
   const placeOrder = () => {
     if (cart.length === 0) return alert("Your cart is empty!");
     
-    fetch('http://localhost:4000/orders', {
+    fetch('https://food-kiosk-api.vercel.app/orders', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ items: cart, total: total })
