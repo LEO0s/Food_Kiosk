@@ -1,25 +1,28 @@
-# Food_Kiosk Project 🍔
+# 🍔 Pat's Food Kiosk Project
 
-A full-stack Restaurant Kiosk application built with **React**, **Node.js**, and **Tailwind CSS**.
+A sleek and responsive full-stack restaurant ordering application designed for a digital kiosk experience.
+
+## 🔗 Live Links
+- **Frontend (UI):** [https://food-kiosk-ui.vercel.app/]
+- **Backend (API):** [https://food-kiosk-api.vercel.app/menu]
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Hosting:** Vercel (Continuous Deployment)
+
+## 🚀 Key Features
+- **Dynamic Menu:** Fetches data from a live Express API.
+- **Category Filtering:** Sort items by Burgers, Sides, Drinks, and Desserts.
+- **Cart System:** Add and remove items with real-time total calculation.
+- **Responsive Design:** Optimized for various screen sizes using Tailwind CSS.
 
 ## 📁 Project Structure
-- **/client**: The React frontend (User Interface, State Management, Tailwind CSS).
-- **/server**: The Node.js/Express backend (API and Menu Data).
+- **/client**: React frontend and UI components.
+- **/server**: Node.js/Express backend and menu data.
 
-## 🚀 How to Run the Project Locally
-
-### 1. Start the Server
-1. Open your terminal and navigate to the server folder: `cd server`
-2. Install dependencies: `npm install`
-3. Start the server: `node index.js` (Server runs on http://localhost:4000)
-
-### 2. Start the Client
-1. Open a **new** terminal window and navigate to the client folder: `cd client`
-2. Install dependencies: `npm install`
-3. Start the app: `npm start` (App runs on http://localhost:3000)
-
-## 🛠️ Features
-- Real-time Menu Fetching
-- Quantity Validation (0-130)
-- Interactive Cart with Session Storage
-- Responsive Design using Tailwind CSS
+## ⚙️ Local Setup
+1. Clone the repository.
+2. Run `npm install` in both `/client` and `/server` folders.
+3. Start the server with `node index.js`.
+4. Start the client with `npm start`.
